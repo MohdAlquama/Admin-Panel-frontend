@@ -9,10 +9,10 @@ const Sidebar = () => {
     <div>
       {/* Mobile Hamburger Button */}
       <button
-        className="lg:hidden text-white p-4"
+        className="lg:hidden  p-4"
         onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
       >
-        {isMobileMenuOpen ? "Close" : "Menu"}
+        {isMobileMenuOpen ? "х" : "☰"}
       </button>
 
       {/* Sidebar */}
